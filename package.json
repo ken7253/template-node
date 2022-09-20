@@ -7,7 +7,8 @@
 		"build": "tsc",
 		"watch": "tsc -w",
 		"lint": "eslint src",
-		"fmt": "prettier -w ."
+		"fmt": "prettier -w .",
+		"prepublishOnly": "npm run build"
 	},
 	"devDependencies": {
 		"@types/node": "^18.7.18",
