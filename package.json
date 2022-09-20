@@ -4,7 +4,10 @@
 	"description": "(Node.js && TypeScript && ESM) Template",
 	"license": "MIT",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "tsc",
+		"watch": "tsc -w",
+		"lint": "eslint src",
+		"fmt": "prettier -w ."
 	},
 	"devDependencies": {
 		"@types/node": "^18.7.18",
