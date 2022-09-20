@@ -10,6 +10,10 @@
 		"fmt": "prettier -w .",
 		"prepublishOnly": "npm run build"
 	},
+	"main": "./dist/index.js",
+	"bin": {
+		"COMMAND_NAME": "./dist/index.js"
+	},
 	"devDependencies": {
 		"@types/node": "^18.7.18",
 		"@typescript-eslint/eslint-plugin": "^5.38.0",
