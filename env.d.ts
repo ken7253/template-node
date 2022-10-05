@@ -1,5 +1,3 @@
-/// <reference types="node" />
-
 declare module 'process' {
 	global {
 		namespace NodeJS {
